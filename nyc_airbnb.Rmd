@@ -102,7 +102,7 @@ I'll try to answer this using a scatterplot
 airbnb_data %>% 
   ggplot(aes(x = calculated_host_listings_count, y = rating)) + 
   geom_point() + 
-  geom_smooth()
+  geom_smooth()   
 ```
 
 I'll also try to answer this using a numeric summary for a binary `lots_of_houses` variable.
@@ -146,7 +146,7 @@ We can learn quite a bit from this -- there are fewer rentals in some neighborho
 
 ### Other questions
 
-There are several questions we didn't get to:
+There are several questions we didn't get to: 
 
 * How is price related to other variables?
 * How are descriptions related to number of reviews?
@@ -155,4 +155,4 @@ There are several questions we didn't get to:
 
 Of these, the question dealing with descriptions is one we're not in a position to handle yet -- that involves parsing character strings, which we'll get to shortly. The others we could at least explore using the tools we have at our disposal now.
 
-#####It is good
+123456
