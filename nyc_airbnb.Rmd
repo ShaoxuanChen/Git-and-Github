@@ -154,3 +154,5 @@ There are several questions we didn't get to:
 * What's different about low-availability rooms?
 
 Of these, the question dealing with descriptions is one we're not in a position to handle yet -- that involves parsing character strings, which we'll get to shortly. The others we could at least explore using the tools we have at our disposal now.
+
+#####It is good
